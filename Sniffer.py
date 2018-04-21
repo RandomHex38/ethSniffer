@@ -1,3 +1,10 @@
+#If anyone knows how to fix the unpacking issue @ line 33 for tcp flags, please let me know
+#File "Sniffer.py", line 33, in main
+    #src_port, dest_port, sequence, acknowledgement, flag_urg, flag_ack, flag_psh, flag_rst, flag_syn, flag_fin = tcp_packet(data)
+#ValueError: too many values to unpack (expected 10)
+
+
+
 import socket
 import sys
 import struct
